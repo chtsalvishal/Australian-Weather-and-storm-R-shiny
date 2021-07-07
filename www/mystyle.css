@@ -1,0 +1,99 @@
+/*    Move everything below the header */
+    .content-wrapper {
+        margin-top: 30px;
+    }
+	.content-wrapper, .right-side {background-color: darkcyan}
+    .content {
+        padding-top: 60px;
+		overflow: auto;
+		background:darkcyan;
+    }
+/*    Format the title/subtitle text */
+    .title-box {
+        position: absolute;
+        text-align: center;
+        top: 50%;
+        left: 50%;
+        transform:translate(-50%, -50%);
+    }
+	
+/*    Make the image taller */
+    .main-header .logo {
+        height: 125px;
+    }
+/*    Override the default media-specific settings */
+    @media (max-width: 5000px) {
+        .main-header {
+            padding: 0 0;
+            position: relative;
+        }
+        .main-header .logo,
+        .main-header .navbar {
+            width: 100%;
+            float: none;
+        }
+        .main-header .navbar {
+            margin: 0;
+        }
+        .main-header .navbar-custom-menu {
+            float: right;
+        }
+    }
+.box-header .box-title, .box-header>.fa, .box-header>.glyphicon, .box-header>.ion {font-size: 25px}
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {line-height: 1.6}
+li{font-size: 20px}
+.irs-grid-text {font-size: 15px}
+.irs--shiny .irs-from, .irs--shiny .irs-to, .irs--shiny .irs-single {font-size: 13px}
+.irs--shiny .irs-min, .irs--shiny .irs-max {font-size: 13px}
+.leaflet-popup-content-wrapper, .leaflet-popup-tip {background: aquamarine}
+.info {background: #eee}
+.skin-blue .main-header .navbar{background-color:#282254;}
+.nav-tabs-custom>.nav-tabs>li.active:hover>a, .nav-tabs-custom>.nav-tabs>li.active>a {background-color: #7fffd48a;color: #5908f3;}
+.nav-tabs-custom>.nav-tabs>li {background-color: #3c8dbc}
+.nav-tabs-custom>.nav-tabs>li>a, .nav-tabs-custom>.nav-tabs>li>a:hover {color: white;}
+.irs--shiny .irs-line {height: 12px}
+.irs--shiny .irs-handle {background-color: red}
+.sidebar-menu .treeview-menu>li>a {font-size: 17px}
+.shiny-table.spacing-s>thead>tr>th, .shiny-table.spacing-s>thead>tr>td, .shiny-table.spacing-s>tbody>tr>th, .shiny-table.spacing-s>tbody>tr>td, .shiny-table.spacing-s>tfoot>tr>th, .shiny-table.spacing-s>tfoot>tr>td {font-size: large}
+.skin-blue .left-side,.skin-blue .main-sidebar,.skin-blue .wrapper{background-color:#133f54}
+.skin-blue .main-header .logo {background-color:black}
+
+.leaflet-container .leaflet-control-attribution, .leaflet-container .leaflet-control-scale{visibility:hidden}
+
+label{
+	font-family: 'Helvetica Neue', Helvetica;
+	font-weight: 200;
+}
+
+
+.leaflet-pane.leaflet-map-pane{transform: translate3d(-95px, 0px, 0px);}
+
+.leaflet-control-layers.leaflet-control-layers-expanded.leaflet-control:hover {
+  opacity: 0.75;
+  transition-delay: 0;
+}
+#controls {
+  /* Appearance */
+  background-color: white;
+  padding: 0 20px 20px 20px;
+  /*Fade out while not hovering*/
+  opacity: 0.65;
+  transition: opacity 200ms 300ms;
+}
+#controls:hover {
+  /* Fade in while hovering */
+  opacity: 0.95;
+  transition-delay: 0;
+}
+	
+/*    Move the sidebar down */
+    .main-sidebar {
+        position: absolute;
+    }
+	.skin-blue .left-side{
+		background-color:royalblue;
+		
+	}
+    .left-side, .main-sidebar {
+        padding-top: 175px;
+    }

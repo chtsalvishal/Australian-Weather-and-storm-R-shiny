@@ -1,0 +1,49 @@
+VISHAL PATTABIRAMAN
+31131441
+
+
+Links used in Visualization project
+
+Shiny
+https://rstudio.github.io/r2d3/articles/shiny.html
+
+Animation and others
+https://www.w3schools.com/howto/howto_js_animate_icons.asp
+https://rviews.rstudio.com/2019/10/09/building-interactive-world-maps-in-shiny/
+https://rstudio.github.io/leaflet/shiny.html
+https://github.com/rstudio/shiny-examples/blob/master/063-superzip-example/styles.css
+https://cyberhelp.sesync.org/leaflet-in-R-lesson/
+https://rstudio.github.io/leaflet/showhide.html - important for markers
+https://bookdown.org/nicohahn/making_maps_with_r5/docs/leaflet.html - important for map styles
+https://www.earthdatascience.org/courses/earth-analytics/get-data-using-apis/leaflet-r/ - important for animation and markers
+https://gis.stackexchange.com/questions/168886/r-how-to-build-heatmap-with-the-leaflet-package
+https://shiny.rstudio.com/articles/css.html -css
+https://rstudio.github.io/leaflet/shiny.html - important for markers
+https://rstudio.github.io/leaflet/shiny.html - important for leaflet and markers
+https://color.adobe.com/explore - color pallete  from adobe to be included for the graphs
+https://slcladal.github.io/motion.html - motion chart important
+https://gganimate.com/
+https://stackoverflow.com/questions/37980290/map-australian-cities-r-spatial - get aus cities lat and long
+
+leaflet
+http://rstudio.github.io/leaflet/map_widget.html
+https://www.jla-data.net/eng/leaflet-in-r-tips-and-tricks/
+
+shiny dashboard
+https://rstudio.github.io/shinydashboard/structure.html#tabbox
+https://rstudio.github.io/shinydashboard/structure.html 	
+https://rstudio.github.io/shinydashboard/structure.html#sidebar
+https://rstudio.github.io/leaflet/colors.html
+http://shiny.rstudio-staging.com/tutorial/written-tutorial/lesson2/
+https://shiny.rstudio.com/articles/sliders.html - for sliders
+
+https://shiny.rstudio.com/articles/plot-interaction-advanced.html - interactive visualisation
+
+treemap
+https://wilkox.org/treemapify/
+
+shiny html tags
+https://shiny.rstudio.com/articles/tag-glossary.html
+
+including images and icons
+https://fontawesome.com/icons/globe-americas?style=solid
